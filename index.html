@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Login</title>
+</head>
+
+<style>
+
+    body{
+
+
+        background-color: #121212;
+    }
+    #register {
+
+        margin: auto;
+
+        width: 30%;
+        margin-left: 250px;
+        height: 490px;
+
+    }
+
+    #login-form {
+
+        margin: auto;
+
+        width: 55%;
+        margin-left: 250px;
+        height: 490px;
+
+    }
+
+    #container {
+
+        display: flex;
+    }
+
+
+    #logo{
+
+        width: 7%;
+    height: 7%;
+    margin-left: 20px;
+    margin-top: 16px;
+    }
+
+
+    h1 {
+        margin-left: 110px;
+        color: white;
+        font-size: 44px;
+    }
+
+
+    input {
+
+        width: 240px;
+        height: 35px;
+       background-color: 
+#d1d5db;
+        margin: 10px 100px 3px 50px;
+        border: 1px solid white;
+    }
+
+    button {
+
+
+        margin-top: 10px;
+        border: none;
+        background-color:red;
+        color: white;
+        padding: 10px;
+
+        font-weight: bold;
+        width: 140px;
+    }
+
+    #btn1 {
+
+        margin-left: 100px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    #btn2 {
+
+        margin-left: 100px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+
+    .logosection {
+
+
+        width: 100%;
+        margin: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .logosection a img {
+        width: 125px;
+        height: 40px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 45px;
+    }
+</style>
+
+<body>
+
+    <img src="yt_logo_rgb_dark.png" alt="" id="logo">
+
+    <div id="container">
+        <div id="register">
+
+
+
+            <h1>Sign Up</h1>
+
+
+
+
+            <form action="">
+
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <input type="number" placeholder="Mobile" id="mobile">
+                <input type="text" placeholder="Description" id="description">
+
+                <button onclick="Register(event)" id="btn1">Register</button>
+
+            </form>
+        </div>
+
+        <form action="">
+
+            <div id="login-form">
+
+
+
+                <h1>Login</h1>
+
+
+
+                <form action="">
+                    <input type="text" placeholder="Username" id="login-username">
+                    <input type="password" placeholder="Password" id="login-password">
+
+                  <a href="home.html"><button onclick="login(event)"id="btn2">Login</button></a>
+                </form>
+
+
+            </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+
+<script src="index.js"></script>
